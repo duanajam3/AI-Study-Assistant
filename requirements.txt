@@ -1,0 +1,14 @@
+# AI Study Assistant — Requirements
+# ────────────────────────────────────────────────────────────
+# All core dependencies are Python standard-library modules:
+#   tkinter, ttk, sqlite3, json, os, datetime, hashlib, pathlib
+#
+# The only OPTIONAL third-party package is Pillow, used for:
+#   • Loading and displaying image thumbnails in the gallery
+#   • Storing raw image bytes in SQLite BLOB columns
+#
+# The app works perfectly without Pillow — images are stored
+# by file path and previewed as metadata text instead.
+# ────────────────────────────────────────────────────────────
+
+Pillow>=10.0.0
